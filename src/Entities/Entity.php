@@ -11,6 +11,7 @@
 
 namespace Longman\TelegramBot\Entities;
 
+use AllowDynamicProperties;
 use Longman\TelegramBot\Entities\InlineQuery\InlineEntity;
 use Longman\TelegramBot\Entities\InputMedia\InputMedia;
 
@@ -24,6 +25,7 @@ use Longman\TelegramBot\Entities\InputMedia\InputMedia;
  * @method array  getRawData()     Get the raw data passed to this entity
  * @method string getBotUsername() Return the bot name passed to this entity
  */
+#[AllowDynamicProperties]
 abstract class Entity implements \JsonSerializable
 {
 

@@ -1,5 +1,5 @@
 {
-    "name": "longman/telegram-bot",
+    "name": "alexsisukin/telegram-core",
     "type": "library",
     "description": "PHP Telegram bot",
     "keywords": ["telegram", "bot", "api"],
@@ -29,7 +29,7 @@
         }
     ],
     "require": {
-        "php": "^7.3|^8.0",
+        "php": "^8.2",
         "ext-pdo": "*",
         "ext-curl": "*",
         "ext-json": "*",
